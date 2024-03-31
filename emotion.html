@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+<style>
+    body{
+        background-image: url('image/bg_1.jpg');
+        margin-top: 0;
+        padding-bottom: 0%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+
+    }
+    .homes h1{
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding: 10%;
+
+}
+.about-container{
+background-color: black;
+padding-top: 3%;
+padding-left: 5%;
+
+}
+.about-1 {
+display: flex;
+}
+.left-contents {
+flex: 1;
+}
+.left-contents img{
+width: 600px;
+height: 300px;
+}
+.left-contents h1{
+color: white;
+padding-bottom: 3%;
+}
+.left-contents p{
+color: #999999;
+font-size: 19px;
+padding-bottom: 3%;
+line-height: 1.3;
+padding-right: 0%;
+margin-right: 0;
+
+}
+.right-content {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+color: white;
+}
+.right-content {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+color: white;
+padding-left: 8%;
+padding-top: 6%;
+}
+.right-content h2 {
+color: white;
+margin-bottom: 10px;
+}
+
+.right-content .technology-row {
+margin-bottom: 10px;
+}
+
+.right-content .technology-box {
+flex: 1;
+}
+
+.right-content .technology-box h3 {
+color: white;
+text-align: center;
+font-size: 15px;
+}
+
+.technology-row {
+display: flex;
+flex-wrap: wrap;
+}
+
+.technology-box {
+flex: 1;
+padding: 10px;
+margin: 10px;
+background-color: #333;
+border-radius: 15px;
+border: 2px solid white; 
+
+}
+.right-content .technology-row {
+margin-bottom: 10px;
+}
+
+.right-content .technology-box {
+flex: 1;
+}
+
+.right-content .technology-box h3 {
+color: white;
+text-align: center;
+font-size: 15px;
+}
+.details-container{
+background-color: #191919;
+height: 350px;
+padding-top: 3%;
+padding-bottom: 4%;
+margin-bottom: 0;
+}
+.details img{
+        float: left;
+        height: 300px;
+        width: 600px;
+        margin-right: 90px;
+        padding-left: 3%;
+    }
+    .details {
+        display: flex; /* Use flexbox */
+        align-items: center; /* Align items vertically */
+        justify-content: center; /* Align items horizontally */
+        margin-top: 20px; /* Add margin to separate from above content */
+    }
+    .details ul {
+        font-size: 20px;
+        color: white; /* Set text color */
+        margin-right: 5%;
+        
+        
+    }
+
+    .details ul li {
+        margin-top: 30px;
+        margin-bottom: 10px; /* Add space between list items */
+        color: #999999;
+        line-height: 0.7;
+    }
+    .menu-items {
+      position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end; /* Align menu items to the right */
+  margin-top: 0;
+  margin-bottom: 2%;
+  
+    }
+    .menu-items a{
+        color: white;
+        
+    }
+    .menu-items li{
+list-style: none;
+margin-right: 20px;
+    }
+ 
+</style>
+    </head>
+    <body>
+        <ul class="menu-items">
+            <li><a href="index.html#home-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            
+            <li><a href="index.html#contact-section">Contact</a></li>
+          </ul>
+          <section class="homes">
+            <h1>Emotional Detection<br> Project</h1>
+        </section>
+          <section class="about-container" id="about-section">
+          
+               <div class="about-1">
+                <div class="left-contents">
+                    <h1>Facial Expression Detection.</h1>
+                    <img src="image/15.PNG" alt="Your Image" style="border: 4px solid white;">
+                     
+                    <p>Embarking on the journey of exploring the intricacies of human emotions, 
+                      I embarked on a project aimed at developing an emotion detection system. 
+                      Leveraging the power of machine learning (ML) algorithms and the versatility
+                       of the Haar cascade algorithm, I endeavored to create a solution capable of 
+                       discerning and categorizing various emotional states depicted in facial expressions.
+                        This project, though relatively straightforward in its approach, presented an 
+                        exciting opportunity to delve into the realms of computer vision and artificial
+                         intelligence. Through diligent research, experimentation, and iteration, I 
+                         sought to construct a robust and efficient system capable of understanding and
+                          interpreting the complexities of human emotion. The goal is to build a machine learning model that can accurately classify
+                          emotions such as happiness, sadness, anger, fear, and surprise based on the visual 
+                          cues of facial expressions.</p> 
+                        </div>
+                        <div class="right-content">
+
+                        <h2>Technologies Used</h2>
+                        <div class="technology-row">
+                        <div class="technology-box">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="technology-box">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="technology-box">
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                    </div>
+                    <div class="technology-row">
+                        <div class="technology-box">
+                            <h3>PYTHON</h3>
+                        </div>
+                        <div class="technology-box">
+                            <h3>DJANGO</h3>
+                        </div>
+                        <div class="technology-box">
+                            <h3>ML ALGORITHM</h3>
+                        </div>
+                        </div>
+                    </div>
+           </div>
+            </section>
+
+
+
+        <section class="details-container">
+        <div class="details">
+            <img src="image/16.PNG" alt="Your Image">
+
+
+            <ul><span style="color: white; font-size: 25px;">Some specific objectives of an emotion detection project may include:</span>
+                <li style="line-height: 1;">Developing a machine learning model that can accurately predict
+                    the emotional state of an individual based on their facial expressions.</li>
+               <li style="line-height: 1;"> Collecting and labeling a large dataset of emotional expressions to train the machine learning model.</li>
+                <li style="line-height: 1;">Designing and developing an interface for the emotion detection system to interact with users.</li>
+               <li style="line-height: 1;"> Implementing the emotion detection system in real-world appli- cations, such as in human-computer interaction or mental health di- agnosis.</li>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <title>Menu Example</title>
+<style>/* Common styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0; /* Remove padding from the top */
+  margin-top: 0; /* Remove margin from the top */
+  padding-bottom: 2%;
+  }
+  
+
+
+  </style>
+</head>
+<body>
+
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" id="menu-icon">&#9776;</label>
+<ul id="menu-items">
+  <li><a href="#home-section">Home</a></li>
+  <li><a href="#about-section">About</a></li>
+  <li><a href="#education-section">Education</a></li>
+  <li><a href="#certifications-section">Certificates</a></li>
+  <li><a href="#skills-section">Skills</a></li>
+  <li class="nav-item dropdown">
+    <a href="#" class="nav-link"><span>Projects</span></a>
+    <ul class="dropdown-menu">
+        <li><a href="emotion.html">Emotion Detection</a></li>
+        <li><a href="resort.html">Resort Management</a></li>
+        <li><a href="museum.html">Museum Management</a></li>
+        <!-- Add more project links as needed -->
+    </ul>
+</li>  <li><a href="#contact-section">Contact</a></li>
+</ul>
+
+
+<!-- Your content sections go here -->
+<section class="home" id="home-section">
+  <div class="left-content">
+    <h1 style="color: #ffbd39;">Hello!</h1><h1> This is <span style="color: #ffbd39;">Divya A S</span></h1>
+    <h1>MCA Graduate</h1>
+    <button onclick="window.open('Divya_A_S.pdf')">Resume</button>
+  </div>
+  <div class="right-content" style="padding-top: 5%;">
+    <img src="image/b1.jpg" alt="Image" style="height: 100%; width: 80%; margin-left: 10%; ">
+    <div class="mobile-text">
+      <h1 style="color: #ffbd39;">Hello!</h1><h1>This is <span style="color: #ffbd39;">Divya AS</span></h1>
+      
+
+      <button onclick="window.open('Divya_A_S.pdf')">Resume</button>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="about" id="about-section">
+  <div class="about-text">
+  <h1>About Me</h1>
+        <h2 class="about-overlay">About</h2>
+        </div>
+  <p >As a recent graduate with a Master's in Computer Applications
+    (MCA), I am passionate about leveraging technology to drive innovation and solve real-world challenges. 
+    Throughout my academic journey, I have developed a strong foundation in computer science, with a focus on
+     software development, database management, and system architecture.</p>
+     <p>My enthusiasm for learning and exploring new technologies motivates me to continuously expand 
+       my knowledge and stay updated with the latest industry trends. I am eager to apply my theoretical 
+       understanding and practical skills to contribute meaningfully to the field of computer science.</p>
+       <ul style="list-style: none; line-height: 2;">
+        <li><span>Name:</span> <span>Divya A S</span></li>
+        <li><span>Date of birth:</span> <span>February 26, 2001</span></li>
+        <li><span>Email:</span> <span>divyaas2001@gmail.com</span></li>
+        <li><span>LinkedIn:</span> <span>https://www.linkedin.com/in/divya-a-s-231071240/</span></li>
+        <li><span>Phone: </span> <span>9036958025</span></li>
+        <li><span>Address:</span> <span>Bengaluru</span></li>
+        <li><span>Zip code:</span> <span>560091</span></li>
+    </ul>
+</section>
+
+<section class="education"   id="education-section">
+  <h1>My Education</h1>
+  <h2 class="education-overlay">Education</h2>    
+  <div class="education-content">
+      <div class="education-left">
+          <h3 style="color: #ffbd39;">Surana College</h3>
+  <p>Master of Computer Applications(2021-2023)<br>8.7 CGPA<br>Bengaluru, Karnataka</p>
+  </div>
+  <div class="education-right">
+      <h3 style="color: #ffbd39;">SJR College For Women</h3>
+  <p>Bachelor of Computer Applications(2018-2021)<br>8.3 CGPA<br>Bengaluru, Karnataka</p>
+</div>
+
+</section>
+<section class="certifications" id="certifications-section">
+  <h1>Certifications</h1>
+  <h2 class="certification-overlay">Certificates</h2>
+  <div class="certification-images">
+      <div class="cert-1">
+      <a href="image/1.jpg"><img src="image/1.jpg" alt="Certificate 1"></a>
+      <a href="image/2.jpg"><img src="image/2.jpg" alt="Certificate 2"></a>
+      <a href="image/3.jpg"><img src="image/3.jpg" alt="Certificate 3"></a>
+    </div><br>
+    <div class="cert-2">
+  <a href="image/4.jpg"><img src="image/4.jpg" alt="Certificate 4"></a>
+  <a href="image/5.jpg"><img src="image/5.jpg" alt="Certificate 5"></a>
+</div>
+</div>
+</section>
+
+<section class="skills" id="skills-section">
+  <h1>My Skills</h1>
+  <h2 class="skills-overlay">Skills</h2>    
+  <div class="skills-content">
+                  <div class="skills-left">
+                      <h3>Technical Skills</h3>
+                      <li> Programming Languages: Java, C, Python</li>
+          <li>Web Technologies: HTML, CSS, JavaScript, Django</li>
+            <li>Integrated Development Environments: VS Code, Eclipse</li>
+            <li>Project Management: Agile Methodology</li>
+            <li>Database Management: MySQL</li>
+            <li>UI/UX Design: Figma, Wireframing, Prototyping.</li>
+                  </div>
+                      <div class="skills-right">
+                          <h3>Soft Skills</h3>
+                          <li>Strong project management skills</li>
+            <li>Excellent problem-solving and analytical abilities</li>
+            <li>Adaptability and willingness to learn new technologies</li>
+            
+            <li>Time Management</li>
+            <li>Effective communication and teamwork skills</li>
+            <li>Presentation Skills</li>
+                      </div>
+  </div>
+</section>
+
+<section class="contact" id="contact-section">
+  <h1>Contact Me</h1>
+  <h2 class="contact-overlay">Contact</h2>
+      <div class="contact-info">
+          <div class="contact-item">
+          <div class="icon-container">
+              <div class="icon-wrapper phone-icon">
+          <i class="fas fa-phone"></i> <!-- Phone Icon -->
+          </div>
+          </div>
+          <span class="contact-ftext">Contact</span>
+          <span class="contact-text">+91 9036958025</span> <!-- Phone Number -->
+      </div>
+      <div class="contact-item">
+          <div class="icon-container">
+              <div class="icon-wrapper email-icon">
+          <i class="fas fa-envelope"></i> <!-- Email Icon -->
+          </div>
+          </div>
+          <span class="contact-ftext">Email-Id</span>
+          <span class="contact-text">divyaas2001@gmail.com</span> <!-- Email Address -->
+      </div>
+      
+    
+      <div class="contact-item">
+          <div class="icon-container">
+                  <div class="icon-wrapper linkedin-icon">
+          <i class="fab fa-linkedin"></i> <!-- LinkedIn Icon -->
+          </div>
+          </div>
+          <span class="contact-ftext">LinkedIn</span>
+
+          <span class="contact-text">https://www.linkedin.com/in/<br>divya-a-s-231071240/</span> <!-- LinkedIn Profile URL -->
+      </div>
+      <div class="contact-item">
+          <div class="icon-container">
+              <div class="icon-wrapper address-icon">
+
+              <i class="fas fa-map-marker-alt"></i> <!-- Address Icon -->
+          </div>
+          </div>
+          <span class="contact-ftext">Address</span>
+
+          <span class="contact-text">Bengaluru, Karnataka</span> <!-- Address -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Highlight current section in the menu when scrolling
+  window.addEventListener('scroll', function() {
+    var sections = document.querySelectorAll('section');
+    var navLinks = document.querySelectorAll('#menu-items a');
+    var currentSectionId = '';
+
+    sections.forEach(function(section) {
+      var sectionTop = section.offsetTop;
+      var sectionHeight = section.clientHeight;
+      if (pageYOffset >= sectionTop - sectionHeight / 2) {
+        currentSectionId = '#' + section.id;
+      }
+    });
+
+    navLinks.forEach(function(navLink) {
+      navLink.classList.remove('current');
+      if (navLink.getAttribute('href') === currentSectionId) {
+        navLink.classList.add('current');
+      }
+    });
+  });
+
+</script>
+<script>
+  // Smooth scrolling when clicking on menu links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute('href'));
+          target.scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+</script>
+
+</body>
+</html>
