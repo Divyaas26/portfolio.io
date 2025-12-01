@@ -535,17 +535,55 @@ background-color: #333; /* Change background color on hover */
 display: block; /* Show dropdown menu on hover */
 }
 
+/* EXPERIENCE SECTION */
+.experience {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.experience h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 0;
+    margin-bottom: 2%;
+}
+
 .experience-overlay {
-position: absolute;
-top: 3px; /* Adjust as needed for desired overlap */
-left: 0;
-font-size: 80px;
-color: rgba(255, 255, 255, 0.1);
-z-index: -1;
-line-height: 0;
+    top: 0px;
+    left: 0;
+    font-size: 80px;
+    color: rgba(255,255,255,0.1);
+    z-index: -1;
+    line-height: 0;
+    text-align: center;
+    margin-top: 0%;
+    position: relative;
+}
+
+/* Single full-width boxes like Education style */
+.experience-box {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.experience-box ul {
+    padding-left: 20px;
+}
+
+.experience-box h3 {
+    margin-top: 0;
 }
 
 
+
 /*end*/
+
 
 
